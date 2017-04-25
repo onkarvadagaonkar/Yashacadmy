@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+
+    tools:context="com.yashacadmynagesh.notes.LessionType">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#fc7ac1"
+        android:orientation="vertical"
+        android:padding="25dp"
+        android:id="@+id/layoutVideo"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_margin="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:text=" Videos :"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:text=" 13 Videos :"
+            android:textColor="#ffffff"
+            />
+
+        <TextView
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:text=" 45 marks :"
+            android:textColor="#ffffff"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:background="#a6e760"
+    android:orientation="vertical"
+    android:padding="25dp"
+        android:id="@+id/layoutAudio"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_margin="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:text=" Audio :"
+        android:textColor="#ffffff"
+        />
+    <TextView
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:text=" 13 Audio :"
+        android:textColor="#ffffff"
+        />
+
+    <TextView
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:text=" 45 marks :"
+        android:textColor="#ffffff"
+        />
+
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#fd86ef"
+        android:orientation="vertical"
+        android:padding="25dp"
+        android:id="@+id/layoutNote"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_margin="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:text=" Docs :"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:text=" 13 documents :"
+            android:textColor="#ffffff"
+            />
+
+        <TextView
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:text=" 45 marks :"
+            android:textColor="#ffffff"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#fa6a8c"
+        android:orientation="vertical"
+        android:padding="25dp"
+        android:id="@+id/layoutPaper"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_margin="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:text=" Papers :"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:text=" 20 Papers :"
+            android:textColor="#ffffff"
+            />
+
+        <TextView
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:text=" 60 marks :"
+            android:textColor="#ffffff"
+            />
+
+
+    </LinearLayout>
+</LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

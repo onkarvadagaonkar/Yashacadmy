@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Yash Academy</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_main_screen">MainScreen</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="videowall_demo_name">Video Wall</string>
+    <string name="videolist_demo_name">Video List</string>
+    <string name="standalone_player_demo_name">Standalone Player</string>
+    <string name="playerview_demo_name">Simple PlayerView</string>
+    <string name="fragment_demo_name">Simple PlayerFragment</string>
+    <string name="player_controls_demo_name">Custom Player Controls</string>
+    <string name="action_bar_demo_name">Overlay ActionBar Demo</string>
+    <string name="fullscreen_demo_name">Custom Fullscreen Handling</string>
+    <string name="intents_demo_name">YouTube App Launcher Intents</string>
+
+    <string name="playerview_text">This is a YouTubePlayerView!</string>
+    <string name="playerfragment_text">This is a YouTubePlayerFragment!</string>
+
+    <string name="demo_select">Please select a demo:</string>
+    <string name="some_demos_disabled">* Your device is currently running Android API version <xliff:g id="current_version">%1$s</xliff:g>.</string>
+    <string name="list_item_disabled">Requires Android API version <xliff:g id="required_version">%1$s</xliff:g> or higher.</string>
+
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="skip_to">Skip To</string>
+    <string name="seconds">secs</string>
+    <string name="player_style">Player Style</string>
+    <string name="def">Default</string>
+    <string name="minimal">Minimal</string>
+    <string name="chromeless">Chromeless</string>
+
+    <string name="play_video">Play video</string>
+    <string name="play_playlist">Play playlist</string>
+    <string name="play_video_list">Play video list</string>
+    <string name="start_index">Start index</string>
+    <string name="start_time">Start time (sec)</string>
+    <string name="autoplay">Autoplay</string>
+    <string name="lightbox_mode">Lightbox mode</string>
+
+    <string name="intent_select">Please select an action:</string>
+    <string name="intent_disabled">This intent is not supported with the currently installed version of YouTube.</string>
+    <string name="youtube_currently_installed">YouTube version installed on this device: <xliff:g id="youtube_version">%1$s</xliff:g>.</string>
+    <string name="youtube_not_installed">YouTube is not installed on this device.</string>
+
+    <string name="fullscreen_tutorial">This is a demo which shows how to handle fullscreen behaviour. This activity has differents layouts for portrait, landscape and fullscreen. The user can enter fullscreen either by using the player controller or programmatically by the programmer (here using a button). If your activity does not have a landscape layout, you can choose to automatically enter fullscreen when the device is rotated to landscape orientation.</string>
+    <string name="enter_fullscreen">Enter Fullscreen</string>
+    <string name="landscape_fullscreen">Always fullscreen in landscape</string>
+
+    <string name="actionbar_tutorial">This is a demo which shows how to use the ActionBar as an overlay when the video is playing in fullscreen. The actionbar will automatically fade away along with the player controls when the video is being played in fullscreen. While not in fullscreen the Actionbar is visible and does not overlay any of the views.</string>
+
+    <string name="error_thumbnail_view">There was an error initializing the YouTubeThumbnailView (%1$s)</string>
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+
+    <string name="back"><![CDATA[<]]></string>
+    <string name="rewind"><![CDATA[<<]]></string>
+    <string name="forward"><![CDATA[>>]]></string>
+    <string name="pause1">||</string>
+    <string name="title_activity_question_paper">QuestionPaperActivity</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+</resources>

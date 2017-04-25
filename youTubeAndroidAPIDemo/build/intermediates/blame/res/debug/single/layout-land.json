@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\Client_projects\\Nagesh_Kumbhar\\Android\\Yashacadmy\\youTubeAndroidAPIDemo\\build\\intermediates\\res\\merged\\debug\\layout-land\\playerview_demo.xml",
+        "source": "E:\\Client_projects\\Nagesh_Kumbhar\\Android\\Yashacadmy\\youTubeAndroidAPIDemo\\src\\main\\res\\layout-land\\playerview_demo.xml"
+    },
+    {
+        "merged": "E:\\Client_projects\\Nagesh_Kumbhar\\Android\\Yashacadmy\\youTubeAndroidAPIDemo\\build\\intermediates\\res\\merged\\debug\\layout-land\\player_controls_demo.xml",
+        "source": "E:\\Client_projects\\Nagesh_Kumbhar\\Android\\Yashacadmy\\youTubeAndroidAPIDemo\\src\\main\\res\\layout-land\\player_controls_demo.xml"
+    },
+    {
+        "merged": "E:\\Client_projects\\Nagesh_Kumbhar\\Android\\Yashacadmy\\youTubeAndroidAPIDemo\\build\\intermediates\\res\\merged\\debug\\layout-land\\fragments_demo.xml",
+        "source": "E:\\Client_projects\\Nagesh_Kumbhar\\Android\\Yashacadmy\\youTubeAndroidAPIDemo\\src\\main\\res\\layout-land\\fragments_demo.xml"
+    }
+]

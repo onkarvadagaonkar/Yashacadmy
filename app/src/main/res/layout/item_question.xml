@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#e9e7e7"
+
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#f9f9f9"
+        android:padding="8dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Q. "
+            android:layout_marginLeft="5dp"
+            android:layout_weight="9"
+            android:id="@+id/txtquestionno"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  What is galaxy  ? "
+            android:layout_weight="1"
+            android:id="@+id/txtquestion"
+            />
+
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:background="#f9f9f9"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Collection Of Solar System"
+            android:padding="5dp"
+            android:layout_margin="4dp"
+            android:gravity="left"
+            android:layout_gravity="left"
+            android:background="#e7e6e6"
+            android:id="@+id/radioButton"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Collections of Solar System and Blackholes"
+            android:padding="5dp"
+            android:layout_margin="4dp"
+            android:gravity="left"
+            android:background="#e7e6e6"
+            android:id="@+id/radioButton2"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Collections of Solar System and Blackholes and Gases"
+            android:padding="5dp"
+            android:layout_margin="4dp"
+            android:gravity="left"
+            android:background="#e7e6e6"
+            android:id="@+id/radioButton3"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="All of these"
+            android:padding="5dp"
+            android:gravity="left"
+            android:background="#e7e6e6"
+            android:layout_margin="4dp"
+            android:id="@+id/radioButton4"
+            android:checked="true" />
+
+
+
+    </RadioGroup>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="50dp"
+        >
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_weight="1"
+        android:id="@+id/btnleft" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_weight="1"
+            android:id="@+id/btnleftd" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:id="@+id/btnright"
+
+
+
+        />
+    </LinearLayout>
+</LinearLayout>

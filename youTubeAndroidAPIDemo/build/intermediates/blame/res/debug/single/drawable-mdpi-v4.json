@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\Client_projects\\Nagesh_Kumbhar\\Android\\Yashacadmy\\youTubeAndroidAPIDemo\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\no_thumbnail.png",
+        "source": "E:\\Client_projects\\Nagesh_Kumbhar\\Android\\Yashacadmy\\youTubeAndroidAPIDemo\\src\\main\\res\\drawable-mdpi\\no_thumbnail.png"
+    },
+    {
+        "merged": "E:\\Client_projects\\Nagesh_Kumbhar\\Android\\Yashacadmy\\youTubeAndroidAPIDemo\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\loading_thumbnail.png",
+        "source": "E:\\Client_projects\\Nagesh_Kumbhar\\Android\\Yashacadmy\\youTubeAndroidAPIDemo\\src\\main\\res\\drawable-mdpi\\loading_thumbnail.png"
+    }
+]

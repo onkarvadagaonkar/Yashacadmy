@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+
+    >
+
+
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/picture"
+        android:textColor="#762950"
+
+        android:text="Medium Text"
+        android:textStyle="bold"
+        android:gravity="left"
+
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:textSize="16dp"
+        android:textColor="#999011"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textView1"
+        android:gravity="left"
+        android:layout_marginLeft="5dp"
+        />
+
+    <com.daasuu.ahp.AnimateHorizontalProgressBar
+        android:id="@+id/animate_progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ahp_backgroundColor="@color/colorPrimaryDark"
+        android:layout_below="@id/textView2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        app:ahp_progressColor="@color/colorAccent" />
+
+</RelativeLayout>
