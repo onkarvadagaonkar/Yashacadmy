@@ -4,12 +4,18 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.net.Uri;
 import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
+
+import com.yasha.academy.view.dashboard.MainScreen;
+import com.yasha.academy.view.login.Sync;
+
+import org.json.JSONObject;
 
 import java.io.File;
 import java.net.URISyntaxException;
@@ -23,9 +29,10 @@ import java.util.Date;
  */
 public class CommonUtilities
 {
-    public final static String URL="http://192.168.73.128/parkermobile/";
+    public final static String URL="http://nktopeducation.com/mobile_service_/";
+    public static final String SUCCESS = "Success";
 
-   //   public final static String URL= "http://biyanitechnologies.com/parkerservices/";
+    //   public final static String URL= "http://biyanitechnologies.com/parkerservices/";
 
     public static int Height=700;
     public static int Width=525;
@@ -191,5 +198,101 @@ public class CommonUtilities
         context.startActivity(emailIntent);
 
         return true;
+    }
+
+    public static long getUserId(Context context)
+    {
+        long val=0;
+        SharedPreferences preferences=context.getSharedPreferences("UserInfo",Context.MODE_PRIVATE);
+        String mainJson="";
+
+        try
+        {
+            mainJson=preferences.getString("UserMaster","{}");
+            JSONObject jsonObject=new JSONObject(mainJson);
+            val=jsonObject.getLong("UserId");
+        }
+        catch (Exception e)
+        {
+            e.printStackTrace();
+        }
+
+        return val;
+    }
+
+    public static String getUserName(Context context)
+    {
+        SharedPreferences preferences=context.getSharedPreferences("UserInfo",Context.MODE_PRIVATE);
+        String mainJson="";
+        String userName="";
+        try
+        {
+                mainJson=preferences.getString("UserMaster","{}");
+            JSONObject jsonObject=new JSONObject(mainJson);
+            userName=jsonObject.getString("UserName");
+        }
+        catch (Exception e)
+        {
+            e.printStackTrace();
+        }
+
+        return userName;
+    }
+
+
+    public static String getName(Context context)
+    {
+        SharedPreferences preferences=context.getSharedPreferences("UserInfo",Context.MODE_PRIVATE);
+        String mainJson="";
+        String userName="";
+        try
+        {
+                mainJson=preferences.getString("UserMaster","{}");
+            JSONObject jsonObject=new JSONObject(mainJson);
+            userName=jsonObject.getString("Name");
+        }
+        catch (Exception e)
+        {
+            e.printStackTrace();
+        }
+
+        return userName;
+    }
+
+    public static String getUserPass(Context context)
+    {
+        SharedPreferences preferences=context.getSharedPreferences("UserInfo",Context.MODE_PRIVATE);
+        String mainJson="";
+        String pass="";
+        try
+        {
+            mainJson=preferences.getString("UserMaster","{}");
+            JSONObject jsonObject=new JSONObject(mainJson);
+            pass=jsonObject.getString("Password");
+        }
+        catch (Exception e)
+        {
+            e.printStackTrace();
+        }
+
+        return pass;
+    }
+
+    public static String getStandard(Context context) {
+        SharedPreferences preferences=context.getSharedPreferences("UserInfo",Context.MODE_PRIVATE);
+        String mainJson="";
+        String pass="";
+        try
+        {
+            mainJson=preferences.getString("UserDetail","{}");
+            JSONObject jsonObject=new JSONObject(mainJson);
+            pass=jsonObject.getString("StandardName");
+        }
+        catch (Exception e)
+        {
+            e.printStackTrace();
+        }
+
+        return pass;
     }
 }

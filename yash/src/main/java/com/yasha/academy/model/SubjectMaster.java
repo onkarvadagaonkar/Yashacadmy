@@ -24,13 +24,6 @@ public class SubjectMaster
         EnterBy = enterBy;
     }
 
-    public long getEnterDate() {
-        return EnterDate;
-    }
-
-    public void setEnterDate(long enterDate) {
-        EnterDate = enterDate;
-    }
 
     public long getChangedBy() {
         return ChangedBy;
@@ -40,13 +33,6 @@ public class SubjectMaster
         ChangedBy = changedBy;
     }
 
-    public long getChangedDate() {
-        return ChangedDate;
-    }
-
-    public void setChangedDate(long changedDate) {
-        ChangedDate = changedDate;
-    }
 
     public String getSubjectName() {
         return SubjectName;
@@ -81,9 +67,45 @@ public class SubjectMaster
     }
 
     private long EnterBy;
-    private long EnterDate;
+    private String EnterDate;
     private long ChangedBy;
-    private long ChangedDate;
+
+    private long EnterDateLong;
+
+    public long getChangedDateLong() {
+        return ChangedDateLong;
+    }
+
+    public void setChangedDateLong(long changedDateLong) {
+        ChangedDateLong = changedDateLong;
+    }
+
+    public long getEnterDateLong() {
+        return EnterDateLong;
+    }
+
+    public void setEnterDateLong(long enterDateLong) {
+        EnterDateLong = enterDateLong;
+    }
+
+    private long ChangedDateLong;
+    public String getChangedDate() {
+        return ChangedDate;
+    }
+
+    public void setChangedDate(String changedDate) {
+        ChangedDate = changedDate;
+    }
+
+    public String getEnterDate() {
+        return EnterDate;
+    }
+
+    public void setEnterDate(String enterDate) {
+        EnterDate = enterDate;
+    }
+
+    private String ChangedDate;
             private String SubjectName, Alias, Description;
     private boolean DeleteStatus;
 }

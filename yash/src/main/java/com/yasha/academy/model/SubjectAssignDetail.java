@@ -6,7 +6,69 @@ package com.yasha.academy.model;
 
 public class SubjectAssignDetail
 {
-    private long SubjectAssignId, StandardId, MediumId, MediumSubTypeId, PublicationId,EnterBy, EnterDate, ChangedBy, ChangedDate;
+    private long SubjectAssignId;
+    private long StandardId;
+    private long MediumId;
+    private long MediumSubTypeId;
+    private long PublicationId;
+    private long EnterBy;
+    private long EnterDateLong;
+    private long ChangedBy;
+
+    public long getSubjectId() {
+        return SubjectId;
+    }
+
+    public void setSubjectId(long subjectId) {
+        SubjectId = subjectId;
+    }
+
+    private long SubjectId;
+
+    public String getSubjectName() {
+        return SubjectName;
+    }
+
+    public void setSubjectName(String subjectName) {
+        SubjectName = subjectName;
+    }
+
+    private String SubjectName;
+    public String getChangedDate() {
+        return ChangedDate;
+    }
+
+    public void setChangedDate(String changedDate) {
+        ChangedDate = changedDate;
+    }
+
+    public String getEnterDate() {
+        return EnterDate;
+    }
+
+    public void setEnterDate(String enterDate) {
+        EnterDate = enterDate;
+    }
+
+    public long getChangedDateLong() {
+        return ChangedDateLong;
+    }
+
+    public void setChangedDateLong(long changedDateLong) {
+        ChangedDateLong = changedDateLong;
+    }
+
+    public long getEnterDateLong() {
+        return EnterDateLong;
+    }
+
+    public void setEnterDateLong(long enterDateLong) {
+        EnterDateLong = enterDateLong;
+    }
+
+    private long ChangedDateLong;
+    private String EnterDate,ChangedDate;
+
 
     public long getSubjectAssignId() {
         return SubjectAssignId;
@@ -56,13 +118,7 @@ public class SubjectAssignDetail
         EnterBy = enterBy;
     }
 
-    public long getEnterDate() {
-        return EnterDate;
-    }
 
-    public void setEnterDate(long enterDate) {
-        EnterDate = enterDate;
-    }
 
     public long getChangedBy() {
         return ChangedBy;
@@ -72,13 +128,7 @@ public class SubjectAssignDetail
         ChangedBy = changedBy;
     }
 
-    public long getChangedDate() {
-        return ChangedDate;
-    }
 
-    public void setChangedDate(long changedDate) {
-        ChangedDate = changedDate;
-    }
 
     public String getDescription() {
         return Description;

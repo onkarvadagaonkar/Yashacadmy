@@ -5,9 +5,48 @@ package com.yasha.academy.model;
  */
 
 public class LessonDetail {
-    private long LessionDetailId, LessionId, EnterBy, EnterDate, ChangedBy, ChangedDate;
+    private long LessionDetailId;
+    private long LessionId;
+    private long EnterBy;
+
+    public long getEnterDateLong() {
+        return EnterDateLong;
+    }
+
+    public void setEnterDateLong(long enterDateLong) {
+        EnterDateLong = enterDateLong;
+    }
+
+    public long getChangedDateLong() {
+        return ChangedDateLong;
+    }
+
+    public void setChangedDateLong(long changedDateLong) {
+        ChangedDateLong = changedDateLong;
+    }
+
+    public String getEnterDate() {
+        return EnterDate;
+    }
+
+    public void setEnterDate(String enterDate) {
+        EnterDate = enterDate;
+    }
+
+    public String getChangedDate() {
+        return ChangedDate;
+    }
+
+    public void setChangedDate(String changedDate) {
+        ChangedDate = changedDate;
+    }
+
+    private long EnterDateLong;
+    private long ChangedBy;
+    private long ChangedDateLong;
             private String LessionType, Titile, Description, Url, Url1, Url2, Marks;
 
+    private String EnterDate,ChangedDate;
     public boolean isDeleteStatus() {
         return DeleteStatus;
     }
@@ -72,13 +111,6 @@ public class LessonDetail {
         LessionType = lessionType;
     }
 
-    public long getChangedDate() {
-        return ChangedDate;
-    }
-
-    public void setChangedDate(long changedDate) {
-        ChangedDate = changedDate;
-    }
 
     public long getChangedBy() {
         return ChangedBy;
@@ -88,13 +120,6 @@ public class LessonDetail {
         ChangedBy = changedBy;
     }
 
-    public long getEnterDate() {
-        return EnterDate;
-    }
-
-    public void setEnterDate(long enterDate) {
-        EnterDate = enterDate;
-    }
 
     public long getEnterBy() {
         return EnterBy;
@@ -121,4 +146,14 @@ public class LessonDetail {
     }
 
     private boolean DeleteStatus;
+
+    public String getLessonName() {
+        return LessonName;
+    }
+
+    public void setLessonName(String lessonName) {
+        LessonName = lessonName;
+    }
+
+    private String LessonName;
 }

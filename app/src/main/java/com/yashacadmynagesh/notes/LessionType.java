@@ -12,10 +12,14 @@ import com.yashacadmynagesh.youtube.VideoListDemoActivity;
 
 public class LessionType extends AppCompatActivity {
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lession_type);
+
+        String strGson=getIntent().getStringExtra("str");
 
 
         getSupportActionBar().setHomeButtonEnabled(true);

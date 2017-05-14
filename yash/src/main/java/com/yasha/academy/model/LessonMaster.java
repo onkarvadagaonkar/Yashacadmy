@@ -6,8 +6,47 @@ package com.yasha.academy.model;
 
 public class LessonMaster
 {
-    private long LessonId,SubjectAssignId,EnterBy, EnterDate, ChangedBy, ChangedDate;
+    private long LessonId;
+    private long SubjectAssignId;
+    private long EnterBy;
+
+    public long getEnterDateLong() {
+        return EnterDateLong;
+    }
+
+    public void setEnterDateLong(long enterDateLong) {
+        EnterDateLong = enterDateLong;
+    }
+
+    public long getChangedDateLong() {
+        return ChangedDateLong;
+    }
+
+    public void setChangedDateLong(long changedDateLong) {
+        ChangedDateLong = changedDateLong;
+    }
+
+    public String getChangedDate() {
+        return ChangedDate;
+    }
+
+    public void setChangedDate(String changedDate) {
+        ChangedDate = changedDate;
+    }
+
+    public String getEnterDate() {
+        return EnterDate;
+    }
+
+    public void setEnterDate(String enterDate) {
+        EnterDate = enterDate;
+    }
+
+    private long EnterDateLong;
+    private long ChangedBy;
+    private long ChangedDateLong;
             private String LessonName, Alias, Description;
+    private String ChangedDate,EnterDate;
 
     public boolean isDeleteStatus() {
         return DeleteStatus;
@@ -41,13 +80,7 @@ public class LessonMaster
         LessonName = lessonName;
     }
 
-    public long getChangedDate() {
-        return ChangedDate;
-    }
 
-    public void setChangedDate(long changedDate) {
-        ChangedDate = changedDate;
-    }
 
     public long getChangedBy() {
         return ChangedBy;
@@ -57,13 +90,7 @@ public class LessonMaster
         ChangedBy = changedBy;
     }
 
-    public long getEnterDate() {
-        return EnterDate;
-    }
 
-    public void setEnterDate(long enterDate) {
-        EnterDate = enterDate;
-    }
 
     public long getEnterBy() {
         return EnterBy;

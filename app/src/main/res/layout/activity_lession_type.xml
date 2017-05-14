@@ -8,6 +8,13 @@
 
     tools:context="com.yashacadmynagesh.notes.LessionType">
 
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar">
+
+    </android.support.v7.widget.Toolbar>
+
 
     <ScrollView
         android:layout_width="match_parent"
@@ -39,7 +46,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAppearance="@style/TextAppearance.AppCompat.Small"
-            android:text=" 13 Videos :"
+            android:text=""
+            android:id="@+id/txtCountVideo"
             android:textColor="#ffffff"
             />
 
@@ -49,7 +57,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAppearance="@style/TextAppearance.AppCompat.Small"
-            android:text=" 45 marks :"
+            android:text=""
+            android:id="@+id/txtMarkVideo"
             android:textColor="#ffffff"
             />
 
@@ -79,6 +88,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="@style/TextAppearance.AppCompat.Small"
         android:text=" 13 Audio :"
+        android:id="@+id/txtCountAudio"
         android:textColor="#ffffff"
         />
 
@@ -89,6 +99,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="@style/TextAppearance.AppCompat.Small"
         android:text=" 45 marks :"
+        android:id="@+id/txtMarkAudio"
         android:textColor="#ffffff"
         />
 
@@ -119,6 +130,7 @@
             android:layout_height="wrap_content"
             android:textAppearance="@style/TextAppearance.AppCompat.Small"
             android:text=" 13 documents :"
+            android:id="@+id/txtCountDocs"
             android:textColor="#ffffff"
             />
 
@@ -129,6 +141,7 @@
             android:layout_height="wrap_content"
             android:textAppearance="@style/TextAppearance.AppCompat.Small"
             android:text=" 45 marks :"
+            android:id="@+id/txtMarkDocs"
             android:textColor="#ffffff"
             />
 
@@ -158,6 +171,7 @@
             android:layout_height="wrap_content"
             android:textAppearance="@style/TextAppearance.AppCompat.Small"
             android:text=" 20 Papers :"
+            android:id="@+id/txtCountPapers"
             android:textColor="#ffffff"
             />
 
@@ -168,6 +182,7 @@
             android:layout_height="wrap_content"
             android:textAppearance="@style/TextAppearance.AppCompat.Small"
             android:text=" 60 marks :"
+            android:id="@+id/txtMarksPapers"
             android:textColor="#ffffff"
             />
 

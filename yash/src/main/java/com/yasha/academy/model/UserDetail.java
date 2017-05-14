@@ -6,8 +6,42 @@ package com.yasha.academy.model;
 
 public class UserDetail
 {
-    private long RecId, UserId, StandardId, MediumId, MediumSubTypeId, PublicationId,EnterDate, EnterBy, ChangedDate, ChangedBy;
+    private long RecId, UserId, StandardId, MediumId, MediumSubTypeId, PublicationId,EnterDateLong, EnterBy, ChangedDateLong, ChangedBy;
+    private boolean IsActive;
 
+    public String getChangedDate() {
+        return ChangedDate;
+    }
+
+    public void setChangedDate(String changedDate) {
+        ChangedDate = changedDate;
+    }
+
+    public String getEnterDate() {
+        return EnterDate;
+    }
+
+    public void setEnterDate(String enterDate) {
+        EnterDate = enterDate;
+    }
+
+    public long getChangedDateLong() {
+        return ChangedDateLong;
+    }
+
+    public void setChangedDateLong(long changedDateLong) {
+        ChangedDateLong = changedDateLong;
+    }
+
+    public long getEnterDateLong() {
+        return EnterDateLong;
+    }
+
+    public void setEnterDateLong(long enterDateLong) {
+        EnterDateLong = enterDateLong;
+    }
+
+    private String EnterDate, ChangedDate;
     public boolean isActive() {
         return IsActive;
     }
@@ -24,13 +58,7 @@ public class UserDetail
         ChangedBy = changedBy;
     }
 
-    public long getChangedDate() {
-        return ChangedDate;
-    }
 
-    public void setChangedDate(long changedDate) {
-        ChangedDate = changedDate;
-    }
 
     public long getEnterBy() {
         return EnterBy;
@@ -40,13 +68,7 @@ public class UserDetail
         EnterBy = enterBy;
     }
 
-    public long getEnterDate() {
-        return EnterDate;
-    }
 
-    public void setEnterDate(long enterDate) {
-        EnterDate = enterDate;
-    }
 
     public long getPublicationId() {
         return PublicationId;
@@ -96,5 +118,42 @@ public class UserDetail
         RecId = recId;
     }
 
-    private boolean IsActive;
+
+    private  String StandardName;
+    private String PublicationName;
+    private String MediumName;
+
+    public String getMediumSubTypeName() {
+        return MediumSubTypeName;
+    }
+
+    public void setMediumSubTypeName(String mediumSubTypeName) {
+        MediumSubTypeName = mediumSubTypeName;
+    }
+
+    public String getMediumName() {
+        return MediumName;
+    }
+
+    public void setMediumName(String mediumName) {
+        MediumName = mediumName;
+    }
+
+    public String getPublicationName() {
+        return PublicationName;
+    }
+
+    public void setPublicationName(String publicationName) {
+        PublicationName = publicationName;
+    }
+
+    public String getStandardName() {
+        return StandardName;
+    }
+
+    public void setStandardName(String standardName) {
+        StandardName = standardName;
+    }
+
+    private String MediumSubTypeName;
 }
